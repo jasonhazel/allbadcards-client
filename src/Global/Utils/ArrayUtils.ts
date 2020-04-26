@@ -1,0 +1,1 @@
+export const ArrayFlatten = <T>(arr: any[]) => arr.reduce((acc, val) => acc.concat(val), [] as T[]);
